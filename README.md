@@ -1,4 +1,0 @@
-mdmp-example
-============
-
-SDKExample
