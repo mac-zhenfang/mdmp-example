@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mdmp.example"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <application
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Black.NoTitleBar" >
+        <activity
+            android:name="com.mdmp.example.UmengHome"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Xp Activitys -->
+
+        <!-- Xp Activitys -->
+        
+        <!-- Xp Ufp Activitys -->
+
+        <!-- Xp Ufp Activitys -->
+
+
+        <!-- Ad Activitys Start -->
+        <activity
+            android:name=".ad.BannerExample"
+            android:label="@string/umeng_example_home_btn_ad" />
+        <activity
+            android:name=".ad.InterstitialExample"
+            android:label="@string/umeng_example_home_btn_ad" />
+
+        <!-- Ad Activitys End -->
+
+
+        <!-- Fb Activitys Start -->
+
+        <!-- Fb Activitys End -->
+
+		<!-- Analytics start -->
+        <activity
+            android:name="com.mdmp.example.analytics.AnalyticsHomecs.AnalyticsHome"
+            android:label="@string/umeng_example_home_btn_analytics" />
+        <!--  
+        <activity
+          com.mdmp.example.analytics.WebviewAnalytic.WebviewAnalytic">
+        </activity>
+        -->
+        
+        <!-- 
+        Anacom.mdmp.example.update.UpdateHome      
+        <activity android:name=".update.UpdateHome"></activitycom.mdmp.example.tools.ToolsHomevity
+            android:name=".tools.ToolsHome"
+            android:label="@string/umeng_example_home_btn_tools" >
+        </activity>
+        <activity
+            android:name=".ad.AdHome"
+            android:label="@string/umeng_example_home_btn_ad" >
+        </activitycom.mdmp.example.fb.FbHome <activity
+            android:name=".fb.FbHome"
+            android:label="@string/umeng_example_home_btn_fb" >
+        </activity>
+		-->
+        <!-- for unit test -->
+        <activity
+            android:name="com.umeng.ut.UtActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.umeng.ut.UtLoadPic"
+            android:label="@string/app_name" />
+        <!-- for unit test -->
+
+		<!-- Caution! Do not change this app key. It is only for demo usage.  -->
+		<meta-data android:value="4f83c5d852701564c0000011" android:name="UMENG_APPKEY"></meta-data>
+
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="Umeng" >
+        </meta-data>
+
+    </application>
+
+    <uses-sdk android:minSdkVersion="4" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <!-- Permission for Unit Test -->
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    
+</manifest>

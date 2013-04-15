@@ -1,0 +1,9 @@
+19-0100,"",1366032582877
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1366032625492
+activated,perspective,org.eclipse.jdt.ui,3.7.0.v20110531-1200,"org.eclipse.jdt.ui.JavaPerspective",1366032633621
+activated,view,com.android.ide.eclipse.ddms,21.1.0.v201302060044-569685,"com.android.ide.eclipse.ddms.views.LogCatView",1366032633670
+activated,view,org.eclipse.jdt.ui,3.7.0.v20110531-1200,"org.eclipse.jdt.ui.PackageExplorer",1366032635496
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1366032650169
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1366032672780
+activated,perspective,org.eclipse.egit.ui,1.3.0.201202151440-r,"org.eclipse.egit.ui.GitRepositoryExploring",1366032674530
+activated,view,org.eclipse.egit.ui,1.3.0.201202151440-r,"org.
